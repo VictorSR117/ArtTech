@@ -1,0 +1,50 @@
+@import "variables.css";
+.other--products {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.main--offers {
+    text-align: center;
+    font-size: 18pt;
+    color: var(--cor5);
+    font-family: 'Lobster', cursive;
+    margin-bottom: 1rem;
+}
+.card--title {
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color,inherit);
+}
+.carousel--length {
+    height: 20rem;
+}
+.modal-body {
+    text-align: center;
+}
+.product--price {
+    text-align: center;
+    font-size: 26pt;
+    color: var(--cor4);
+}
+.card-bg {
+    background-color: var(--cor5);
+}
+@media (min-width: 768px) {
+    .carousel--length {
+        height: 40rem;
+    }
+    .other--products {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 93%;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,15 @@
+@import url('variables.css');
+.outdoor {
+    background-color: var(--cor1);
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.outdoor--text {
+    font-family: 'Cousine', monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22pt;
+}

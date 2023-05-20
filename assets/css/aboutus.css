@@ -1,0 +1,25 @@
+.bg-browm {
+    background-color: var(--cor3);
+    padding: 1.5rem 1rem;
+}
+
+.history--title {
+    font-size: 30pt;
+    font-family: 'Alex Brush', cursive;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.history--text {
+    color: #000;
+    font-size: 15pt;
+    text-align: justify;
+}
+
+.history--bg {
+    background-color: var(--cor2);
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}

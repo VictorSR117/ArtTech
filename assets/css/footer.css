@@ -1,0 +1,12 @@
+.bg--black {
+    background-color: rgb(34, 34, 34);
+}
+.footer--text {
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--cor5);
+}
+.author {
+    text-decoration: none;
+    color: #45b7f0;
+}

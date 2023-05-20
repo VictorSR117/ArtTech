@@ -1,0 +1,27 @@
+@import "heroBanner.css";
+@import "variables.css";
+@import "outdoor.css";
+@import "products.css";
+@import "aboutus.css";
+@import "contactus.css";
+@import "navbar.css";
+@import "footer.css";
+body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Cousine', monospace;
+    background-color: var(--cor5);
+}
+/* .navbar {
+    min-width: 27.7rem;
+} */
+.company--name {
+    font-family: 'Alex Brush', cursive;
+}
+.container-fluid {
+    font-family: 'Lobster', cursive;
+}
+.test {
+    font-family: 'Cousine', monospace;
+}
